@@ -1,11 +1,11 @@
 <?php
-//Give the name of the program here
-//Include your name and the date here
-//Give a brief description of what the program does
+//Part 1 
+//Lesliy Eghaghe 11/10/23
+//The code defines the connection parametres. The timezone is set to Dublin to make sure the data is stored in the right timezone. The script makes a connection to MySQL. The code inserts a new member called John Doe into the member table.
 $servername = "localhost";
-$username = "user";
-$password = "pass";
-$dbname = "database";
+$username = "root"
+$password = "No ...*/";
+$dbname = "TenisClub";
 $port = 3307;
 
 //set the default timezone - this is necessary since MySQL 8. This is an effort to store all dates and times together with their timezones. 
